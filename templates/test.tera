@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/assets/hoge.css">
+    <meta charset="UTF-8">
+    <title>hoge</title>
+{% endblock head %}
+</head>
+<body>
+<p>hoge {{hoge}}</p>
+{% for user in items%}
+<span>{{user}}</span>
+{% endfor %}
+</body>
+</html>
